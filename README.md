@@ -36,3 +36,19 @@ Let's build an agent using a general ReAct architecture
 3. Reason - let the model reason about the tool output to decide what to do next (e.g., call another tool or just respond directly)
 
 ![Screenshot 2025-02-06 223826](https://github.com/user-attachments/assets/2a1f08b8-f01c-4fb2-bb9d-65dcbcbad6c7)
+
+
+### 5. Agent in Graph with Memory
+
+Let's build an agent using a general ReAct architecture with Memory
+
+1. Act - let the model call specific tools
+2. Observe - pass the tool output back to the model
+3. Reason - let the model reason about the tool output to decide what to do next (e.g., call another tool or just respond directly)
+
+We will extend our agent by introducing memory.
+
+
+![image](https://github.com/user-attachments/assets/1562c544-11ee-4d61-8a0d-2614ec18ceaf)
+
+
