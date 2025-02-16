@@ -52,3 +52,13 @@ We will extend our agent by introducing memory.
 ![image](https://github.com/user-attachments/assets/1562c544-11ee-4d61-8a0d-2614ec18ceaf)
 
 
+
+### 6. State Schema in LangGraph
+
+The state schema represents the structure and types of data that our graph will use. All nodes are expected to communicate with that schema.
+
+We will use
+
+1. `TypeDict` class from python's `typing` module.
+2. `DataClasses` from python
+3. `Pydantic` - data validation and settings management library using Python type annotations.
