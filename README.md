@@ -62,3 +62,15 @@ We will use
 1. `TypeDict` class from python's `typing` module.
 2. `DataClasses` from python
 3. `Pydantic` - data validation and settings management library using Python type annotations.
+
+
+### 7. State Reducers in LangGraph
+
+The reducers, which specify how state updates are performed on specific keys / channels in the state schema.
+
+We will use
+
+1. `Annotated` type with reducer function like `operator.add`.
+2. `Annotated` type with custom reducer function like `reduce_list`.
+3. `MessagesState`
+4. `Re-writing` and `Removal` of messages.
