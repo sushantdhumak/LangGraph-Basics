@@ -6,6 +6,7 @@ Let's build a simple graph with 3 nodes and one conditional edge.
 
 ![image](https://github.com/user-attachments/assets/8c8db214-7d12-4578-8cce-4d13aa5f3a73)
 
+---
 
 ### 2. A Simple chain in Graph 
 
@@ -18,6 +19,7 @@ Let's build up to a simple chain that combines 4 concepts:
 
 ![image](https://github.com/user-attachments/assets/57f5291e-708e-4dd7-8f7b-3e5e41cf81f2)
 
+---
 
 ### 3. Route in Graph
 
@@ -26,6 +28,7 @@ This is an simple example of an agent, where the LLM is directing the control fl
 
 ![Screenshot 2025-02-03 230343](https://github.com/user-attachments/assets/363a8997-53d9-41f6-847e-e09586cd0246)
 
+---
 
 ### 4. Agent in Graph
 
@@ -37,6 +40,7 @@ Let's build an agent using a general ReAct architecture
 
 ![Screenshot 2025-02-06 223826](https://github.com/user-attachments/assets/2a1f08b8-f01c-4fb2-bb9d-65dcbcbad6c7)
 
+---
 
 ### 5. Agent in Graph with Memory
 
@@ -48,10 +52,9 @@ Let's build an agent using a general ReAct architecture with Memory
 
 We will extend our agent by introducing memory.
 
-
 ![image](https://github.com/user-attachments/assets/1562c544-11ee-4d61-8a0d-2614ec18ceaf)
 
-
+---
 
 ### 6. State Schema in LangGraph
 
@@ -63,6 +66,7 @@ We will use
 2. `DataClasses` from python
 3. `Pydantic` - data validation and settings management library using Python type annotations.
 
+---
 
 ### 7. State Reducers in LangGraph
 
@@ -75,6 +79,7 @@ We will use
 3. `MessagesState`
 4. `Re-writing` and `Removal` of messages.
 
+---
 
 ### 8. Multiple Schemas in LangGraph
 
@@ -83,4 +88,4 @@ The multiple schemas sre needed when,
 1. Internal nodes may pass information that is *not required* in the graph's input / output.
 2. We may also want to use different input / output schemas for the graph.
 
-
+---
