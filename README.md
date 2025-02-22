@@ -74,3 +74,13 @@ We will use
 2. `Annotated` type with custom reducer function like `reduce_list`.
 3. `MessagesState`
 4. `Re-writing` and `Removal` of messages.
+
+
+### 8. Multiple Schemas in LangGraph
+
+The multiple schemas sre needed when,
+
+1. Internal nodes may pass information that is *not required* in the graph's input / output.
+2. We may also want to use different input / output schemas for the graph.
+
+
