@@ -83,9 +83,19 @@ We will use
 
 ### 8. Multiple Schemas in LangGraph
 
-The multiple schemas sre needed when,
+The multiple schemas are needed when,
 
 1. Internal nodes may pass information that is *not required* in the graph's input / output.
 2. We may also want to use different input / output schemas for the graph.
+
+---
+
+### 9. Filtering and Trimming messages in LangGraph
+
+Filtering and Trimming messages using,
+
+1. Remove Message with MessageState
+2. Filtering Messages
+3. Trimming Messages
 
 ---
