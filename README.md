@@ -99,3 +99,9 @@ Filtering and Trimming messages using,
 3. Trimming Messages
 
 ---
+
+### 10. Chatbot with Message Summarization & Checkpoint Memory
+
+Let's create a simple Chatbot with conversation summary. We'll equip that Chatbot with memory, supporting long-running conversations.
+
+---
