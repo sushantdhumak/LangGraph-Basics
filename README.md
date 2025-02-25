@@ -105,3 +105,9 @@ Filtering and Trimming messages using,
 Let's create a simple Chatbot with conversation summary. We'll equip that Chatbot with memory, supporting long-running conversations.
 
 ---
+
+### 11. Chatbot with Message Summarization & External DB Memory
+
+Let's upgrade our Chatbot with conversation summary and external memory (SqliteSaver checkpointer), supporting long-running conversations and chat presistence.
+
+---
