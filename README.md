@@ -111,3 +111,15 @@ Let's create a simple Chatbot with conversation summary. We'll equip that Chatbo
 Let's upgrade our Chatbot with conversation summary and external memory (SqliteSaver checkpointer), supporting long-running conversations and chat presistence.
 
 ---
+
+### 12. Streaming the Output of the Graph (Graph State and Tokens)
+
+1. `.stream` and `.astream` are sync and async methods for streaming back results
+2. Streaming graph state using streaming modes - 'updates' and 'values'
+3. `.astream` events and each event is a dict with a few keys:   
+* `event`: This is the type of event that is being emitted. 
+* `name`: This is the name of event.
+* `data`: This is the data associated with the event.
+* `metadata`: Contains`langgraph_node`, the node emitting the event.
+
+---
