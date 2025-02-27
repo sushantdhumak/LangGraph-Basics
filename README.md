@@ -123,3 +123,10 @@ Let's upgrade our Chatbot with conversation summary and external memory (SqliteS
 * `metadata`: Contains`langgraph_node`, the node emitting the event.
 
 ---
+
+### 13. Human-in-the-loop | Breakpoints
+
+For breakpoint, we need to simply compile the graph with `interrupt_before=["tools"]` where `tools` is our tools node.
+This means that the execution will be interrupted before the node `tools`, which executes the tool call.
+
+---
