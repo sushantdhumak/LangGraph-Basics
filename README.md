@@ -130,3 +130,9 @@ For breakpoint, we need to simply compile the graph with `interrupt_before=["too
 This means that the execution will be interrupted before the node `tools`, which executes the tool call.
 
 ---
+
+### 14. Human-in-the-loop | Editing State
+
+Using breakpoints to modify the graph state.
+
+---
