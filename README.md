@@ -129,6 +129,8 @@ Let's upgrade our Chatbot with conversation summary and external memory (SqliteS
 For breakpoint, we need to simply compile the graph with `interrupt_before=["tools"]` where `tools` is our tools node.
 This means that the execution will be interrupted before the node `tools`, which executes the tool call.
 
+![image](https://github.com/user-attachments/assets/8db36385-11f5-4419-abcb-794bcca180da)
+
 ---
 
 ### 14. Human-in-the-loop | Editing State
@@ -136,3 +138,14 @@ This means that the execution will be interrupted before the node `tools`, which
 Using breakpoints to modify the graph state.
 
 ---
+
+### 15. Human-in-the-loop | Dynamic Breakpoints
+
+This is an internal breakpoint to allow the graph **dynamically interrupt** itself!
+
+This has a few specific benefits: 
+1. Can do it conditionally (from inside a node based on developer-defined logic).
+2. Can communicate to the user why its interrupted (by passing whatever you want to the `NodeInterrupt`).
+
+---
+
