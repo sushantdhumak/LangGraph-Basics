@@ -149,3 +149,21 @@ This has a few specific benefits:
 
 ---
 
+### 16. Human-in-the-loop | Time Travel
+
+Time travel in LangGraph supports debugging by viewing, re-playing, and even forking from past states. 
+
+We can do this by: 
+1. Browsing History - get_state and get_state_history.
+   ![image](https://github.com/user-attachments/assets/4295dbc1-3092-4c9e-96f9-8c3403c9edcb)
+
+   
+2. Replaying - Re-run our agent from any of the prior steps.
+   ![image](https://github.com/user-attachments/assets/1a4dc7b9-9b0a-486b-833a-50d2570a0f83)
+
+
+3. Forking - Run from that same step, but with a different input.
+   ![image](https://github.com/user-attachments/assets/5f8a6102-6019-4476-a6de-d9b36f67d281)
+
+---
+
