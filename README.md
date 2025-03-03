@@ -167,3 +167,16 @@ We can do this by:
 
 ---
 
+### 17. Parallelization
+
+We can excecute the nodes in parallel (as required by the situation) using,
+
+1. Fan-in and Fan-out
+2. Waiting for other parallel node to finish
+3. Setting the order of the state updates
+
+![image](https://github.com/user-attachments/assets/43527675-fd50-4f07-bfc5-9582e94cdad4)
+
+
+---
+
