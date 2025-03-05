@@ -180,3 +180,20 @@ We can excecute the nodes in parallel (as required by the situation) using,
 
 ---
 
+### 18. Sub-graphs
+
+Sub-graphs allow you to create and manage different states in different parts of your graph. 
+This is particularly useful for multi-agent systems, with teams of agents that each have their own state.
+
+Let's consider an example:
+
+1. I have a system that accepts logs
+2. It performs two separate sub-tasks by different agents (summarize logs, find failure modes)
+3. I want to perform these two operations in two different sub-graphs.
+
+The most critical thing to understand is how the graphs communicate!
+
+![image](https://github.com/user-attachments/assets/742c9f21-2e59-41c9-827f-fc6449c1c25c)
+
+
+---
