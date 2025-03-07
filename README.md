@@ -197,3 +197,13 @@ The most critical thing to understand is how the graphs communicate!
 
 
 ---
+
+### 19. Map-Reduce
+
+Map-reduce operations are essential for efficient task decomposition and parallel processing. 
+
+It has two phases:
+
+1. `Map` - Break a task into smaller sub-tasks, processing each sub-task in parallel.
+2. `Reduce` - Aggregate the results across all of the completed, parallelized sub-tasks.
+
