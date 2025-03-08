@@ -207,3 +207,20 @@ It has two phases:
 1. `Map` - Break a task into smaller sub-tasks, processing each sub-task in parallel.
 2. `Reduce` - Aggregate the results across all of the completed, parallelized sub-tasks.
 
+---
+
+### 20. Research Assistant
+
+Research is often laborious work offloaded to analysts. AI has considerable potential to assist with this.
+
+However, research demands customization: raw LLM outputs are often poorly suited for real-world decision-making workflows. 
+
+Customized, AI-based [research and report generation] workflows are a promising way to address this.
+
+![image](https://github.com/user-attachments/assets/1993dc5b-ea8d-4b24-b5bd-1c3a24b22d75)
+
+![output](https://github.com/user-attachments/assets/9a2e0603-a3b6-4a81-b0b3-e27dd3ce795a)
+
+---
+
+
