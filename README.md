@@ -223,4 +223,14 @@ Customized, AI-based [research and report generation] workflows are a promising 
 
 ---
 
+### 21. Chatbot with Memory
 
+Let's build a chatbot that uses both `short-term (within-thread)` and `long-term (across-thread)` memory.
+
+We'll focus on long-term, which will be facts about the user. These long-term memories will be used to create a personalized chatbot that can remember facts about the user.
+
+It will save memory, as the user is chatting with it.
+
+![image](https://github.com/user-attachments/assets/2c90b418-28b5-482a-88aa-3ed91d56b463)
+
+---
