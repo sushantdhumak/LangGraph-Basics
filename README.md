@@ -234,3 +234,13 @@ It will save memory, as the user is chatting with it.
 ![image](https://github.com/user-attachments/assets/2c90b418-28b5-482a-88aa-3ed91d56b463)
 
 ---
+
+### 22. Chatbot with Profile Schema
+
+Our chatbot saved memories as a string. In practice, we often want memories to have a structure. 
+ 
+In our case, we want this to be a single user profile. We'll extend our chatbot to save semantic memories to a single user profile
+
+We'll also use a library, `Trustcall`, to update this schema with new information. 
+
+---
