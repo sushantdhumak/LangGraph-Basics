@@ -1,5 +1,5 @@
 # ===============================================
-# Memory Profile Schema in LangGraph
+# Memory Collection Schema in LangGraph
 # ===============================================
 
 
