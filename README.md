@@ -244,3 +244,13 @@ In our case, we want this to be a single user profile. We'll extend our chatbot 
 We'll also use a library, `Trustcall`, to update this schema with new information. 
 
 ---
+
+### 23. Chatbot with Collection Schema
+
+Sometimes we want to save memories to a `collection` rather than single profile. 
+
+Let's update our chatbot to save memories to a collection.
+
+We'll also show how to use `Trustcall` to update this collection. 
+
+---
