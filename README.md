@@ -254,3 +254,13 @@ Let's update our chatbot to save memories to a collection.
 We'll also show how to use `Trustcall` to update this collection. 
 
 ---
+
+### 24. Memory Agent
+
+Let's pull together the pieces learned to build an agent with long-term memory.
+
+![image](https://github.com/user-attachments/assets/6ec1c208-fc57-4f72-aa18-f11e79fcd0ec)
+
+---
+
+
