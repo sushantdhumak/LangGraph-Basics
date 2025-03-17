@@ -263,4 +263,33 @@ Let's pull together the pieces learned to build an agent with long-term memory.
 
 ---
 
+### 25. Deployment - Creation and Connecting
+
+The following information should be provided to create a LangGraph Platform deployment:
+
+A LangGraph API Configuration file - `langgraph.json`
+The graphs that implement the logic of the application - e.g., `task_maistro.py`
+A file that specifies dependencies required to run the application - `requirements.txt`
+Supply environment variables needed for the application to run - `.env` or `docker-compose.yml`
+
+We can access the deployment through:
+      
+API: http://localhost:8123
+
+Docs: http://localhost:8123/docs
+
+LangGraph Studio: https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:8123
+
+
+LangGraph Server exposes many API endpoints for interacting with the deployed agent. These endpoints are group into a few common agent needs: 
+
+**Runs**: Atomic agent executions
+
+**Threads**: Multi-turn interactions or human in the loop
+
+**Store**: Long-term memory
+
+![image](https://github.com/user-attachments/assets/d503c62a-c36c-4c13-b084-86fa2b090bf1)
+
+---
 
