@@ -1,5 +1,5 @@
 # ===============================================
-# Memory with Long Term Memory in LangGraph
+# Agent with Long Term Memory in LangGraph
 # ===============================================
 
 
