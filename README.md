@@ -293,3 +293,22 @@ LangGraph Server exposes many API endpoints for interacting with the deployed ag
 
 ---
 
+### 26. Double Texting
+
+Seamless handling of double texting is important for handling real-world usage scenarios, especially in chat applications.
+
+Users can send multiple messages in a row before the prior run(s) complete, and we want to ensure that we handle this gracefully.
+
+We can follow below approaches to handle the different scenarios
+
+**Reject**: A simple approach is to reject any new runs until the current run completes.
+
+**Enqueue**: Enqueue any new runs until the current run completes.
+
+**Interrupt**: Interrupt to interrupt the current run, but save all the work that has been done so far up to that point.
+
+**Rollback**: Rollback to interrupt the prior run of the graph, delete it, and start a new run with the double-texted input.
+
+![image](https://github.com/user-attachments/assets/e43fce95-6dda-432e-a215-30fe8dd7dfa2)
+
+---
